@@ -16,7 +16,7 @@ CREATE EXTERNAL TABLE ext_sales_data (
 LOCATION ('gpfdist://localhost:8081/test.csv')
 FORMAT 'CSV' (DELIMITER ',' HEADER);
 ```
-![alt text]({C54A95B6-C8F7-4B10-A92E-9DEFB80CEA9D}.png)
+![alt text](img/{C54A95B6-C8F7-4B10-A92E-9DEFB80CEA9D}.png)
 
 4. Данные успешно считаны:
 ```sql
